@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const hungerBar = document.getElementById("hunger-bar");
   const feedButton = document.getElementById("feed-btn");
   const characterImage = document.getElementById("character-image");
-  const toggleButton = document.querySelector(".togglebutton"); // FIXED: Use querySelector
+  const toggleButton = document.querySelector(".togglebutton"); 
 
   coinCount.textContent = coins;
 
@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateFeed();
         showNotification(`Successfully Bought ${productName}!`, "success");
       } else {
-        showNotification("Not enough coins! Get back to tasks!", "error");
+        showNotification("Not enough coins!Get your ass back to tasks", "error");
       }
     });
   });
