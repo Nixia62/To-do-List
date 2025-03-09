@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateFeed();
         showNotification(`Successfully Bought ${productName}!`, "success");
       } else {
-        showNotification("Not enough coins!Get your ass back to tasks", "error");
+        showNotification("Not enough coins! Get your ass back to tasks", "error");
       }
     });
   });
